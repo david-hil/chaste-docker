@@ -57,6 +57,10 @@ RUN wget -O /usr/share/keyrings/chaste.asc https://chaste.github.io/chaste.asc \
 # Install dependencies with applicable recommended and other useful packages
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+    qtbase5-dev \
+    qttools5-dev \
+    qttools5-dev-tools \
+    libqt5svg5-dev \
     chaste-dependencies \
     clang \
     lldb \
