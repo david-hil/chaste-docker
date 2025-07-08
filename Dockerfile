@@ -61,6 +61,7 @@ RUN apt-get update && \
     qttools5-dev \
     qttools5-dev-tools \
     libqt5svg5-dev \
+    libqt5opengl5-dev \
     chaste-dependencies \
     clang \
     lldb \
